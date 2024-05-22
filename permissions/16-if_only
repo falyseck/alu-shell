@@ -1,2 +1,3 @@
 #!/bin/bash
-chown vincent hello if uid= "guillame" fi
+chown --from=guillaume vincent hello
+
