@@ -1,2 +1,2 @@
 #!/bin/bash
-if uid=" guillaume" chown vincent hello
+chown vincent hello if uid= "guillame" fi
