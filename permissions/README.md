@@ -1,2 +1,3 @@
 readme for changing user to betty
 who am i 
+the groups in which the user is in
