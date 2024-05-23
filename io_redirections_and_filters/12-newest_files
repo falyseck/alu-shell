@@ -1,0 +1,2 @@
+#!/bn/bash
+ls ($"find . -type f -tail -n 10")
