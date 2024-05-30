@@ -1,4 +1,4 @@
-#1/usr/bin/env bash
+#!/usr/bin/env bash
 # 4 bad luck, 8 good luck
 
 n=1
