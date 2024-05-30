@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# if 9 say hi
+
+n=1
+while [$n -le 10]
+do
+    echo "Best school"
+   
+    if [$n -eq 9]
+    then
+       echo "\n Hi"
+    fi
+    n=$((n +1))
+done
+
+     
