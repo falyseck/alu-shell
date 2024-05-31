@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Path to the Apache log file
+LOG_FILE="C:/Users/hp/Desktop/apache-access.log"
+
+# Check if the log file exists
+if [ ! -f "$LOG_FILE" ]; then
+  echo "Log file not found!"
+  exit 1
+fi
+
+# Use awk to extract the IP and HTTP status code and print them in the required format
+awk '{print $1, $9}' "$LOG_FILE"
